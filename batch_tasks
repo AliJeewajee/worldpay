@@ -1,0 +1,29 @@
+[
+  {
+    "name": "example1",
+    "data": [
+      "worldpay/data/2015/Accidents.csv"
+    ],
+    "column": [
+      "Date",
+      "Number_of_Casualties"
+    ],
+    "start_time": "2015-01-01",
+    "end_time": "2015-06-01",
+    "resolution": "day"
+  },
+   {
+     "name": "example2",
+     "data": [
+       "worldpay/data/2015/Accidents.csv",
+       "worldpay/data/2015/Casualties.csv"
+     ],
+     "column": [
+       "Date",
+       "Number_of_Casualties"
+     ],
+     "start_time": "",
+     "end_time": "",
+     "resolution": "week"
+   }
+]
