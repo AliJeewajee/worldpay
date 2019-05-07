@@ -155,7 +155,7 @@ class Analysis(object):
         else:
             data = self._data.copy()
 
-        xlabel = self._task.column[1]
+        xlabel = self._task.resolution
 
         if self._task.resolution == 'day':
             bins = 100
