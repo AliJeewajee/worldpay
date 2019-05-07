@@ -44,12 +44,13 @@ JSON definition:
 
 # Limitations
 - Works only with CSV data
+- Requires timeseries data.
 - Limited analytical methods
 - Data size (all operations are performed in memory)
 
 # Future developments
-- Use a proper database for versatility in accessing data.
-- Something like spark for data size, performance limitations
+- Use a proper database for versatility in accessing data, something like spark for data size, performance limitations
+- Add capability to dealing with different data types (not just timeseries).
 - Add concurrency for performance especially for tasks that are I/O limited
 - Expand profiling capabilities, more plots, statistical methods.
 - Add a proper GUI with easier and more sophisticated data manipulation, dynamic visualisation.
